@@ -12,10 +12,10 @@ module.exports = {
     console.log('\n', text + ':');
   },
   pass: function(label, message) {
-    console.log(chalk.green(format('  %s %s: %s', symbols.ok, sc(label), message)));
+    console.log(format('  %s %s', chalk.green(symbols.ok), chalk.grey(sc(label))));
   },
   fail: function(label, message) {
-    console.log(chalk.red(format('  %s %s: %s', symbols.err, sc(label), message)));
+    console.log(format('  %s %s: %s', chalk.red(symbols.err), sc(label), message));
   },
   summary: function(npass, nfail) {
     var summary = 'Summary';
