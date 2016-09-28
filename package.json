@@ -19,5 +19,16 @@
   },
   "devDependencies": {
     "hath": "^1.0.0"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidesmiths/hath-report-spec.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guidesmiths/hath-report-spec/issues"
+  },
+  "homepage": "https://github.com/guidesmiths/hath-report-spec#readme"
 }
