@@ -1,5 +1,5 @@
 var Hath = require('hath')
-var spec = require('..')
+var report = require('..')
 
 function testSomething(t, done) {
   t.assert(true, 'I love it when a plan comes together')
@@ -7,15 +7,10 @@ function testSomething(t, done) {
   done()
 }
 
-module.exports = Hath.suite('Hath Summary Spec', [
+module.exports = Hath.suite('Hath Report Spec', [
   testSomething
 ]);
 
 if (module === require.main) {
-  module.exports(new Hath({
-      title: spec.title,
-      pass: spec.pass,
-      fail: spec.fail,
-      summary: spec.summary
-  }));
+  module.exports(new Hath(report))
 }
