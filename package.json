@@ -1,0 +1,23 @@
+{
+  "name": "hath-summary-spec",
+  "version": "0.1.0",
+  "description": "Outputs a hath summary in spec like format",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run examples || true",
+    "examples": "node examples/suite.js || echo noop > /dev/null"
+  },
+  "keywords": [
+    "hath"
+  ],
+  "author": "GuideSmiths Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "hath": "^1.0.1",
+    "sentence-case": "^2.1.0"
+  },
+  "devDependencies": {
+    "hath": "^1.0.0"
+  }
+}
