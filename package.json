@@ -1,6 +1,6 @@
 {
   "name": "hath-report-spec",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Outputs a hath summary in spec like format",
   "main": "index.js",
   "scripts": {
